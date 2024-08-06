@@ -19,6 +19,7 @@ public class MemberService {
 	
 	public void addMember(MemberBean memberBean) {
 		
+		System.out.println("hello");
 		memeberDAO.addMember(memberBean);
 		System.out.println("안녕하세요");
 		
