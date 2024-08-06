@@ -12,6 +12,11 @@ public class MemberService {
 	@Autowired
 	private MemberDAO memeberDAO;
 	
+	public void test() {
+		
+		System.out.println("테스트");
+	}
+	
 	public void addMember(MemberBean memberBean) {
 		
 		memeberDAO.addMember(memberBean);
