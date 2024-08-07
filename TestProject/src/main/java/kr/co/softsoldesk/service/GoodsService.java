@@ -13,6 +13,7 @@ public class GoodsService {
 	private GoodsDAO goodsDAO;
 	
 	public void addGoods(GoodsBean goodsBean) {
+		System.out.println("안녕하세요");
 		goodsDAO.addGoods(goodsBean);
 	}
 	
